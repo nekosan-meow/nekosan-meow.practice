@@ -1,8 +1,3 @@
-/* * {
-  box-sizing: border-box;
-}
-*/
-
 body {
   font-family: "Creepster";
 }
@@ -13,111 +8,55 @@ li {
 
 header {
   background-color: #ffffe0;
-  height: 62px;
-  border-top: solid 0px #FFDEAD;
-  border-bottom: solid 0px #FFDEAD;
-  margin-top: -8px;
-  width:100%;
-  position: fixed;
-  z-index: 1;
+  color: #000000;
+  height: 60px;
+  border-top: solid 4px #FFDEAD;
+  border-bottom: solid 4px #FFDEAD;
 }
 
 .header-logo {
   float: left;
   font-size: 30px;
-  padding-left: 40px;
-  background-color: #ffff66;
-  margin-left: 0px;
-  line-height: 50px;
-  padding: 5px;
-  border-radius: 10px;
-  border: solid 1px #ccff00;
-}
-
-.header-logo:hover {
-  background-color: #ffff00;
+  padding: 15px ;
+  margin-left: 10px;
 }
 
 .header-list li {
   float: right;
   font-size: 20px;
-  padding: 5px;
-  margin-right: 0px;
-  margin-top: -16px;
-  background-color: #ffff66;
-  display: block;
-  border-radius: 7px;
-  border: solid 1px #ccff00;
+  padding: 5px 10px;
+  margin-right: 10px;
 }
 
-.header-list li:hover {
-  background-color: #ffff00;
-}
-
-.fa-cat {
-  line-height: 50px;
-  padding: 15px;
-  width: 40px;
-}
-
-.Contact {
-  line-height: 50px;
-  padding: 15px;
-  color: black;
-  border: solid 0px #FFDEAD;
-}
-
-.About {
-  line-height: 50px;
-  padding: 15px;
-  color: black;
-}
-
-.Blog {
-  line-height: 50px;
-  padding: 15px;
-  color: black;
-}
-
-.Home {
-  line-height: 50px;
-  padding: 15px;
-  color: black;
-}
 .main {
-
+  padding: 0px 0px;
 }
 
 .copy-container {
-  padding: 180px 0 120px 0;
+  padding: 180px 0 100px 0;
   width: 100%;
   height: 200px;
   background-image: url("nemophila homepage.png");
   background-size: cover;
-  color: #0000FF;
+  color: white;
   border-bottom: solid 4px #FFDEAD;
-  text-align: center;
-  position: relative;
 }
 
 .copy-container h1 {
-  font-size: 60px;
-  position: absolute;
-  top: 100px;
-  left: 890px;
+  font-size: 70px;
 }
 
 .copy-container h2 {
   font-size: 60px;
-  position: absolute;
-  top: 160px;
-  left: 700px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
 }
 
 .contents {
-  height: 470px;
+  height: 500px;
   margin-top: 50px;
-  text-align: center;
 }
 
 .section-title {
@@ -129,14 +68,11 @@ header {
 
 .recently-updated {
   float: left;
-  width: 25%;
+  margin-right: 40px;
 }
 
-.recently-updated img {
+.contents img {
   border: solid 10px #DDFFFF;
-  border-radius: 20px;
-  width: 288px;
-  height: 244px;
 }
 
 .recently-updated p {
@@ -145,62 +81,28 @@ header {
   border-bottom: solid 2px #dddddd;
 }
 
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 8px;
+.contact-form {
+
 }
 
-.btn:active {
-  position:relative;
-  top: 7px;
-  box-shadow: none;
+.contact-form p {
+  font-size: 22px;
 }
 
-.btn:hover {
-  opacity: 1;
+/* inputとtextareaのCSSを指定してください */
+input, textarea {
+  width: 500px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-size: 18px;
+  border: 3px solid #dee7ec;
 }
 
-
-/* signupクラスのCSSを指定してください */
-.signup {
-  background-color: #239b76;
-  box-shadow: 0 7px #1a7940;
-}
-
-
-/* facebookクラスのCSSを指定してください */
-.facebook {
-  background-color: #3b5998;
-  margin-right: 20px;
-  box-shadow: 0 7px #333399;
-}
-
-
-/* twitterクラスのCSSを指定してください */
-.twitter {
-  background-color: #55acee;
-  box-shadow: 0 7px #3366ff;
-}
-
-
-/* btn-wrapperクラスのCSSを指定してください */
-.btn-wrapper {
-  margin-top: 0px;
-  text-align: center;
-  padding-bottom: 60px;
-}
-
-.fab {
-  margin-right: 5px;
-}
-
-/* btn-wrapperクラスの中にある<p>のCSSを指定してください */
-.btn-wrapper p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+/* contact-submitのCSSを指定してください */
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
 }
 
 footer {
@@ -208,6 +110,7 @@ footer {
   color: #fff;
   height: 120px;
   padding: 40px;
+  margin-top: 15px;
   border-top: solid 4px #FFDEAD;
   border-bottom: solid 4px #FFDEAD;
 }
